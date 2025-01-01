@@ -1,0 +1,1 @@
+func processData(data []int) {  for i := 0; i < len(data); i++ {    if data[i] == 0 {      // This will cause a panic if i + 1 is out of bounds      fmt.Println(data[i+1])    }  }}
